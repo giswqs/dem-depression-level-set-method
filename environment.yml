@@ -1,0 +1,16 @@
+name: levelset
+channels:
+ - !!python/unicode
+  'defaults'
+ - !!python/unicode
+  'conda-forge'
+dependencies:
+- python=3.6.3
+- pip==9.0.1
+- numpy==1.13.3
+- matplotlib==2.1.0
+- scikit-image==0.13.1
+- scipy==1.0.0
+- pandas==0.21.0
+- pillow==4.2.1
+- gdal==2.2.2
