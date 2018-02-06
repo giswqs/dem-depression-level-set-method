@@ -1,7 +1,7 @@
 # Level Set Methods
 This repo was created for the following peer-reviewed manuscript:
 
-**Wu, Q.**, Lane, C.R., Wang, L., Vanderhoof, M.K., & Christensen, J.R. (2018). Delineating nested depressions in digital elevation models for hydrological analysis using level set methods. *Journal of the American Water Resources Association* (under review) 
+**Wu, Q.**, Lane, C.R., Wang, L., Vanderhoof, M.K., Christensen, J.R., & Liu, H. (2018). Efficient Delineation of Nested Depression Hierarchy in Digital Elevation Models for Hydrological Analysis Using Level-Set Methods. *Journal of the American Water Resources Association* (under review)
 
 ## How to use the level set algorithm
 
@@ -25,18 +25,18 @@ Open the Python script [level_set/slicing.py](level_set/slicing.py) and change t
     # set input files
     in_dem = "../data/CLSA_LiDAR.tif"
     in_sink = "../data/CLSA_Sink.tif"
-    
+
     # parameters for level set method
     min_size = 2000         # minimum number of pixels as a depression
     min_depth = 0.3         # minimum depression depth
     interval = 0.2          # slicing interval, top-down approach
-    
+
     # set output directory
     out_dir = "../result"
- 
+
 ## Step 4: Executing the algorithm
 Run the Python script [level_set/slicing.py](level_set/slicing.py). By default, results will be saved under the `result` folder under the project root directory.  
-    
+
 ## Examples
 The images below show working examples of the level set method for delineating nested depressions in the Cottonwood Lake Study Area (CLSA), North Dakota.
 More test datasets (e.g., the Pipestem watershed in the Prairie Pothole Region of North Dakota) can be downloaded from <http://gishub.org/2018-JAWRA-Data>
@@ -46,5 +46,3 @@ The following example was conducted on a 64-bit Linux machine with a quad-core I
 ![CLSA DEM](/figures/CLSA_DEM.png)
 
 ![CLSA Result](/figures/CLSA_Result.png)
-
-![CLSA Aerials](/figures/CLSA_Aerials.png)
