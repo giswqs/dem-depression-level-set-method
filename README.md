@@ -46,3 +46,5 @@ The following example was conducted on a 64-bit Linux machine with a quad-core I
 ![CLSA DEM](/figures/CLSA_DEM.png)
 
 ![CLSA Result](/figures/CLSA_Result.png)
+
+![CLSA Table](/figures/CLSA_Table.png)
